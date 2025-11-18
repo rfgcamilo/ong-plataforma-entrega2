@@ -40,16 +40,6 @@ python -m http.server 5173
 # http://localhost:5173
 ```
 
-## GitHub Pages
-- Faça upload deste conteúdo para um **repositório público** (ex.: `ong-plataforma-entrega2`).
-- Em **Settings → Pages**: Source = *Deploy from a branch*, Branch = `main` (root `/`).
-
-## Requisitos atendidos
-- **Sistema de Design:** `variables.css` (paleta 10+ cores, tipografia 5 níveis, espaçamentos 8–64).
-- **Leiautes Responsivos:** grid 12 colunas (`layout.css`), helpers flex; **6 breakpoints** (xs, sm, md, lg, xl, 2xl).
-- **Navegação:** menu hambúrguer (mobile) + submenu dropdown (desktop).
-- **Componentes:** cards, botões com estados, formulários estilizados com validação visual, alerts/toast/modal.
-- **Acessibilidade/SEO:** semântica, foco visível, skip link, `aria-current`, metatags descritivas.
 
 ---
 
