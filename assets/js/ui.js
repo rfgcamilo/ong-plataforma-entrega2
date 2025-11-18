@@ -1,0 +1,6 @@
+document.addEventListener('click',(e)=>{
+  const btn = e.target.closest('.nav-toggle'); if(btn){ document.querySelector('.menu')?.classList.toggle('open'); }
+});
+document.addEventListener('keydown',(e)=>{ if(e.key==='Escape'){ document.querySelectorAll('.menu .submenu').forEach(el=> el.style.display='none'); document.querySelector('.menu')?.classList.remove('open'); }});
+window.showToast=function(msg='Ação realizada!'){let t=document.querySelector('.toast'); if(!t){t=document.createElement('div');t.className='toast';document.body.appendChild(t);} t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),2500);}
+window.toggleModal=function(open=true){let b=document.querySelector('.modal-backdrop'); if(!b){b=document.createElement('div');b.className='modal-backdrop';b.innerHTML='<div class="modal"><h3>Confirmação</h3><p>Exemplo de modal acessível.</p><div class="flex justify-between mt-2"><button class="btn ghost" onclick="toggleModal(false)">Cancelar</button><button class="btn" onclick="toggleModal(false);showToast(\'Confirmado!\')">Confirmar</button></div></div>'; document.body.appendChild(b);} if(open) b.classList.add('open'); else b.classList.remove('open');}

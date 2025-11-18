@@ -1,0 +1,8 @@
+label{font-weight:600}
+fieldset{border:1px solid var(--neutral-200);border-radius:var(--radius-1);padding:var(--space-2);margin-bottom:var(--space-2)}
+legend{font-weight:700;padding:0 .25rem}
+input,select,textarea{width:100%;padding:.625rem;border:1px solid var(--neutral-300);border-radius:var(--radius-1);background:#fff;font:inherit}
+input:focus,select:focus,textarea:focus{outline:3px solid var(--accent-500);outline-offset:2px;border-color:var(--brand-500)}
+.form-row{display:grid;gap:.75rem} @media (min-width:var(--bp-md)){.form-row-sm-2{grid-template-columns:repeat(2,1fr)}}
+input:required:invalid, select:required:invalid{border-color:var(--danger-500)} input:required:valid, select:required:valid{border-color:var(--success-500)}
+.small{font-size:var(--fs-1);color:var(--muted)}

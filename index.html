@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Início · Semente Solidária</title>
+  <meta name="description" content="Página inicial da ONG com missão, valores e grid 12 colunas.">
+  <meta name="theme-color" content="#0E4DA4">
+  <meta property="og:title" content="Início · Semente Solidária">
+  <meta property="og:description" content="Página inicial da ONG com missão, valores e grid 12 colunas.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header role="banner">
+  <div class="container topbar">
+    <div class="header-brand" aria-label="Semente Solidária">
+      <span aria-hidden="true">🌱</span>
+      <span>Semente Solidária</span>
+    </div>
+    <button class="nav-toggle" aria-label="Abrir menu"><span>☰</span></button>
+    <nav class="menu" aria-label="Principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li>
+          <a href="projetos.html" aria-haspopup="true" aria-expanded="false">Projetos</a>
+          <div class="submenu" role="menu">
+            <a href="projetos.html#educacao" role="menuitem">Educação</a>
+            <a href="projetos.html#alimentacao" role="menuitem">Segurança Alimentar</a>
+            <a href="projetos.html#inclusao" role="menuitem">Inclusão & Renda</a>
+          </div>
+        </li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="conteudo" tabindex="-1">
+  <div class="container">
+
+<section class="hero">
+  <h1>Nossa missão é ampliar o impacto social com transparência</h1>
+  <p>Conectamos pessoas, projetos e recursos para transformar realidades locais.</p>
+  <img src="assets/img/hero.svg" alt="Banner institucional da ONG com mensagem de impacto" width="1600" height="900">
+</section>
+
+<section aria-labelledby="grid12">
+  <h2 id="grid12">Demonstração do Grid 12 colunas</h2>
+  <div class="grid-12">
+    <div class="surface col-span-12">12</div>
+    <div class="surface col-span-6">6</div>
+    <div class="surface col-span-6">6</div>
+    <div class="surface col-span-4">4</div>
+    <div class="surface col-span-4">4</div>
+    <div class="surface col-span-4">4</div>
+  </div>
+</section>
+
+<section aria-labelledby="feedback">
+  <h2 id="feedback">Feedbacks de UI</h2>
+  <div class="alert info">Informação: inscrições para voluntariado abertas.</div>
+  <div class="alert success">Sucesso: seu cadastro foi recebido!</div>
+  <button class="btn" onclick="showToast('Cadastro enviado!')">Mostrar Toast</button>
+  <button class="btn ghost" onclick="toggleModal(true)">Abrir Modal</button>
+</section>
+
+  </div>
+</main>
+<footer role="contentinfo">
+  <div class="container">
+    <p><strong>Semente Solidária</strong> — Transparência, impacto e inclusão.</p>
+    <p class="muted">© 2025 • WCAG 2.1 AA • SEO-friendly • Grid 12 col</p>
+  </div>
+</footer>
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/ui.js" defer></script>
+</body>
+</html>

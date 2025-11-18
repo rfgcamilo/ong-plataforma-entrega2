@@ -1,0 +1,6 @@
+@media (max-width: calc(var(--bp-xs) - 1px)){ nav ul{gap:.5rem} }
+@media (min-width: var(--bp-sm)){ .hero{padding: var(--space-4) 0} }
+@media (min-width: var(--bp-md)){ .grid-sm-2{grid-template-columns: repeat(2, 1fr)} }
+@media (min-width: var(--bp-lg)){ .grid-md-3{grid-template-columns: repeat(3, 1fr)} }
+@media (min-width: var(--bp-xl)){ .container{max-width:1200px} }
+@media (min-width: var(--bp-2xl)){ .container{max-width:1320px} }

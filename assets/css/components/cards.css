@@ -1,0 +1,2 @@
+.card{background:var(--neutral-100);border:1px solid var(--neutral-200);border-radius:var(--radius-2);padding:var(--space-2);box-shadow:var(--shadow-1)}
+.card img{width:100%;height:auto;border-radius:8px} .card .meta{font-size:var(--fs-1);color:var(--muted)}
